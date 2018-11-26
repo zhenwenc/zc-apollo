@@ -1,0 +1,10 @@
+.*
+
+npm
+test
+typings
+scripts
+tsconfig.json
+tslint.json
+
+__tests__

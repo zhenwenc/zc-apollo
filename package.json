@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc -b packages/apollo-react packages/apollo-codegen",
+    "publish": "lerna publish --independent --skip-git"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.10",
+    "lerna": "^2.10.2",
+    "rimraf": "^2.6.2",
+    "typescript": "^3.1.6"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}

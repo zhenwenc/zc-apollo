@@ -1,0 +1,33 @@
+{
+  "name": "zc-apollo-codegen",
+  "version": "0.1.5",
+  "author": "Frederick Cai",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "bin": "./lib/cli.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.0.3",
+    "@types/invariant": "^2.2.29",
+    "@types/react-dom": "^16.0.10",
+    "@types/yargs": "^11.0.0",
+    "apollo-codegen": "^0.19.1",
+    "chalk": "^2.3.2"
+  },
+  "peerDependencies": {
+    "apollo-codegen": "^0.19.1"
+  },
+  "dependencies": {
+    "common-tags": "^1.7.2",
+    "graphql": "^0.13.2",
+    "graphql-config": "^2.0.1",
+    "graphql-tools": "^2.24.0",
+    "invariant": "^2.2.4",
+    "isomorphic-unfetch": "^2.0.0",
+    "merge-graphql-schemas": "^1.5.1",
+    "rimraf": "^2.6.2",
+    "yargs": "^11.0.0"
+  }
+}

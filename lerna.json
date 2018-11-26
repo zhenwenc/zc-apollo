@@ -1,0 +1,10 @@
+{
+  "lerna": "2.10.0",
+  "npmClient": "yarn",
+  "packages": [
+    "packages/apollo-react",
+    "packages/apollo-codegen"
+  ],
+  "version": "independent",
+  "hoist": false
+}
